@@ -17,8 +17,7 @@ public class practicaPalindromo extends JFrame implements ActionListener {
     private JLabel longitud;
     private JLabel inversa;
     private JLabel repetidas;
-    
-    
+   
       public practicaPalindromo(){
         super();
         configurarVentana();
@@ -116,8 +115,7 @@ public class practicaPalindromo extends JFrame implements ActionListener {
          }
          
          String resultado = String.valueOf(contador);
-         repetidas.setText(resultado);
-         
+         repetidas.setText(resultado); 
      }
     }
      
@@ -125,8 +123,4 @@ public class practicaPalindromo extends JFrame implements ActionListener {
          practicaPalindromo ventana = new practicaPalindromo();
         ventana.setVisible(true);
     }
-
- 
-    
-    
 }
